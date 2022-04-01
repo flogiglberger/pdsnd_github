@@ -205,7 +205,7 @@ def display_data(df):
 
 def main():
     """Calls function after function in order to run the project"""
-    
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
@@ -222,4 +222,7 @@ def main():
 
 
 if __name__ == "__main__":
+    """Runs project only inside the file bikeshare.py.
+       Other files can just access to single functions of bikeshare.py"""
+
 	main()

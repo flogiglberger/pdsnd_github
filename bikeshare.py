@@ -204,6 +204,8 @@ def display_data(df):
 
 
 def main():
+    """Calls function after function in order to run the project"""
+    
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)

@@ -8,7 +8,7 @@ The project's name is ***Explore US Bikeshare Data***.
 **This project is used to receive aimed data about the use of bikesharing in the US.**
 
 You can chose between data of the cities Chicago, New York City and Washington.
-You can also select if you want to see data of a specific month and day.
+You can also select if you want to see data of all months and days or data of a specific month and day.
 In Addition, insights into the raw data are available.
 
 *The data contains information regarding riding duration, start/end station,
